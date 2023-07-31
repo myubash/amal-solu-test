@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.homeMenu {
+  cursor: pointer;
+}
+
+.homeMenu:hover {
+  background-color: rgb(209, 205, 205);
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em);
+}
+
+.homeMenu:active {
+  background-color: white;
+  box-shadow: unset;
+  transform: unset;
+}
